@@ -1552,7 +1552,31 @@ h3#comments {
     border-top: dotted 1px #e6e6e6;
     padding-top: 8px;
     overflow: auto;
-    height: 160px;
+    height: 150px;
+}
+
+.services-col4 p {
+    margin: 15px 0 10px 0;
+    font-size: 13px;
+    border-top: dotted 1px #e6e6e6;
+    padding-top: 8px;
+}
+
+.services-col4 h3{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 295px;
+}
+
+.services-col4 h4{
+  font-size: 14px;
+  line-height: 0;
+  text-decoration: underline;
+  padding: 10px 0 0 0px;
+
 }
 
 .services ul{
@@ -1570,7 +1594,8 @@ h3#comments {
 .services h4{
   font-size: 14px;
   line-height: 0;
-  text-decoration: underline
+  text-decoration: underline;
+  padding: 10px 0 0 5px;
 }
 .services:hover .service-icon {
     background: #fff666;
@@ -1622,6 +1647,8 @@ body.students ul li.home-blog-post{
     font-size: 13px;
     margin-bottom: 0;
     padding: 0;
+    overflow: scroll;
+    height: 100px;
 }
 
 .home-blog-post .blog-text {
